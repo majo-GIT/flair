@@ -7,5 +7,6 @@ sentence: Sentence = Sentence("George Washington went to Washington .")
 tagger.predict(sentence)
 
 print("Analysing the sentence %s" % sentence)
+
 print("\nThe following NER tags are found: \n")
 print(sentence.to_tagged_string())
